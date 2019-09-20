@@ -9,7 +9,7 @@ public class StudentRegisterationForm extends Sute{
 	public void enterRegisterationForm() {
 		System.out.println("ABC");
 		WebPage.sendKeys(By.id("studentname"), "abc");
-		WebPage.sendKeys(By.id("fathername"), "ABC");
+		WebPage.sendKeys(By.id("fathername"), "ABCd");
 		WebPage.sendKeys(By.id("paddress"), "Hyderabad");
 		WebPage.sendKeys(By.id("personaladdress"), "TS");
 		WebPage.click(By.xpath("//form[@name='StudentRegistration']/table/tbody/tr[6]/td[2]/input[1]"));
