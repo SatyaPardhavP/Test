@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14418" started-at="2019-09-20T11:31:18 IST" finished-at="2019-09-20T11:31:33 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14418" started-at="2019-09-20T11:31:18 IST" finished-at="2019-09-20T11:31:33 IST">
+      <class name="sample1.StudentRegisterationForm">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String, java.lang.String)[pri:0, instance:sample1.StudentRegisterationForm@210366b4]" name="BeforeClass" is-config="true" duration-ms="5089" started-at="2019-09-20T11:31:18 IST" finished-at="2019-09-20T11:31:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.stqatools.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="enterRegisterationForm()[pri:0, instance:sample1.StudentRegisterationForm@210366b4]" name="enterRegisterationForm" duration-ms="9066" started-at="2019-09-20T11:31:23 IST" finished-at="2019-09-20T11:31:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRegisterationForm -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:sample1.StudentRegisterationForm@210366b4]" name="browserClose" is-config="true" duration-ms="215" started-at="2019-09-20T11:31:33 IST" finished-at="2019-09-20T11:31:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- sample1.StudentRegisterationForm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
